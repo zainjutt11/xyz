@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMS Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+  </head>
+</head>
+<header>
+  <nav>
+    <div class="logo">
+      <img src="images (8).png" alt="Logo" width="300px" height="150px">
+    </div>
+    <div class="conn">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- <header>
+<nav>
+  <div class="logo">
+    <img src="bayc-logo-z (1).jpg" alt="" width="300px">
+  </div>
+  <div class="conn">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+  </div>   
+</nav>
+</header> -->
+<body style="background-color: #007bff;">
+  
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="co.jpg" class="w-100 p-3" alt="First item" class="col-5">
+          </div>
+          <div class="carousel-item">
+            <img src="coo.jpg" class="w-100 p-3" alt="Second item" class="col-5">
+          </div>
+          <div class="carousel-item">
+            <img src="cooo.jpg" class="w-100 p-3" alt="Third item" class="col-5">
+          </div>
+          <div class="carousel-item">
+            <img src="coooo.jpg" class="w-100 p-3" alt="Third item" class="col-5">
+          </div>
+          <div class="carousel-item">
+            <img src="cooooooo.jpg" class="w-100 p-3" alt="Third item" class="col-5">
+          </div>
+          <div class="carousel-item">
+            <img src="7e64029a-2433-4c70-9512-631ed8c72c87_PK-1976-688.jpg_2200x2200q80.jpg" class="w-100 p-3" alt="Third item" class="col-5">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+      <div class="container">
+        <div class="row row-gap-3">
+          <!-- <div class="col-md-4 col-xl-3 col-sm-6 col-xxl-2"> -->
+        <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+            <div class="card">
+            <img class="card-img-top" src="1d6ec4968b3ca62f0651ce92d46a67db.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Premium Cream</h5>
+              <p class="card-text">Price: <del>99$</del> 30$</p>
+              <p class="card-text1">Product No: #001</p>
+              <button type="button" class="btn btn-secondary" onclick="changePage()" class="btn btn-secondary1">Buy Now</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+            <div class="card">
+            <img class="card-img-top" src="194dc78b68ad72c03108ab4c2cf3c18c.jpg_400x400q80.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Air Buds</h5>
+              <p class="card-text">Price: <del>88$</del> 66$</p>
+              <p class="card-text1">Product No: #002</p>
+                <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+              <div class="card">
+              <img class="card-img-top" src="2f3dcb9276d7befd9aae52bcf82bed70.png_200x200q80.png_.webp" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Tharmas</h5>
+                <p class="card-text">Price: <del>80$</del> 30$</p>
+                <p class="card-text1">Product No: #003</p>
+                <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+              <div class="card">
+              <img class="card-img-top" src="fa892b991471473af62711d3d64e00a6.png_200x200q80.png_.webp" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Jacket</h5>
+                <p class="card-text">Price: <del>90$</del> 50$</p>
+                <p class="card-text1">Product No: #004</p>
+                <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+              </div>
+              </div>
+            </div>
+            
+            <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+              <div class="card">
+              <img class="card-img-top" src="43a2f1df2be26e6a4342a0ebd3652ead.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+              <div class="card-body">
+              <h5 class="card-title">OK. Pant-Shut</h5>
+              <p class="card-text">Price: <del>80$</del> 30$</p>
+              <p class="card-text1">Product No: #005</p>
+              <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+            </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+          <div class="card">
+          <img class="card-img-top" src="33bc81f5344f38b96bcf226c65356336.jpg_400x400q80.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Samsung A06</h5>
+            <p class="card-text">Price: <del>99$</del> 49$</p>
+            <p class="card-text1">Product No: #006</p>
+              <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+            <div class="card">
+            <img class="card-img-top" src="84ca4ca6283dbac8bd5f17b5b61fd2fb.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Ring Light</h5>
+              <p class="card-text">Price: <del>90$</del> 30$</p>
+              <p class="card-text1">Product No: #007</p>
+              <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+            <div class="card">
+            <img class="card-img-top" src="8d6e90fad3601e87df1d2136227e176e.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Premium Metal</h5>
+              <p class="card-text">Price: <del>100$</del> 66$</p>
+              <p class="card-text1">Product No: #008</p>
+              <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+            <div class="card">
+            <img class="card-img-top" src="69a8d5b59ddf2af8dc5edb505446be30.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">Markhor set</h5>
+            <p class="card-text">Price: <del>99$</del> 39$</p>
+            <p class="card-text1">Product No: #009</p>
+            <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+          </div>
+          </div>
+      </div>
+      <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+        <div class="card">
+        <img class="card-img-top" src="921bb7829d5e5578f9bee09980e3cf64.png_400x400q80.png" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Earbuds pro</h5>
+        <p class="card-text">Price: <del>100$</del> 50$</p>
+        <p class="card-text1">Product No: #0010</p>
+        <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+      </div>
+      </div>
+  </div>
+  <div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+    <div class="card">
+    <img class="card-img-top" src="cb89663d6dcadb1210807f7a947c0ef1.jpg_400x400q80.jpg" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Air pods a9</h5>
+    <p class="card-text">Price: <del>60$</del> 20$</p>
+    <p class="card-text1">Product No: #0011</p>
+    <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+  </div>
+  </div>
+</div>
+<div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+  <div class="card">
+  <img class="card-img-top" src="d6459054c9c28f4f1c034521efc02c66.jpg_400x400q80.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title">Earbuds</h5>
+  <p class="card-text">Price: <del>100$</del> 70$</p>
+  <p class="card-text1">Product No: #0012</p>
+  <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+  <div class="card">
+  <img class="card-img-top" src="S646707aa84394ff4aa5290894f600c82v.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title">Ring</h5>
+  <p class="card-text">Price: <del>77$</del> 34$</p>
+  <p class="card-text1">Product No: #0013</p>
+  <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+  <div class="card">
+  <img class="card-img-top" src="S6f1d6a83211548008477b210b480ec869.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title">IPHONE 6</h5>
+  <p class="card-text">Price: <del>79$</del> 31$</p>
+  <p class="card-text1">Product No: #0014</p>
+  <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+  <div class="card">
+  <img class="card-img-top" src="b33834520d5e57524d8c46159505daba.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title">HP Bag</h5>
+  <p class="card-text">Price: <del>90$</del> 40$</p>
+  <p class="card-text1">Product No: #0015</p>
+  <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Nowy</button>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+  <div class="card">
+  <img class="card-img-top" src="983430c91f2f85a81a1f6f2113953b5a.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title">Ladies Pars</h5>
+  <p class="card-text"><del>60$</del>40$</p>
+  <p class="card-text1">Product No: #0016</p>
+  <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+  <div class="card">
+  <img class="card-img-top" src="98ca796a76bb855a71778d0edfa1814d.jpg_200x200q80.jpg_.webp" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title">Boys Pant&Shut</h5>
+  <p class="card-text">Price: <del>100$</del> 50$</p>
+  <p class="card-text1">Product No: #0017</p>
+  <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+</div>
+</div>
+</div>
+<div class="col-md-2 col-xl-2 col-sm-4 col-xxl-2">
+  <div class="card">
+  <img class="card-img-top" src="61d4a112fc2af2d13c6e4aeaa98051f5.jpg_400x400q80.jpg" alt="Card image cap">
+  <div class="card-body">
+  <h5 class="card-title">Shan Biyani Masala</h5>
+  <p class="card-text">Price: <del>70$</del> 40$</p>
+  <p class="card-text1">Product No: #0018</p>
+  <button type="button" class="btn btn-secondary" onclick="changePage()">Buy Now</button>
+</div>
+</div>
+</div>
+<footer class="bg-light text-center text-lg-start mt-5" style="background-color: black;">
+  <div class="text-center p-3">
+    © 2025 BMS Store | All Rights Reserved.
+    <a class="text-dark" href="#">Privacy Policy</a>
+  </div>
+</footer>
+
+
+
+
+    <script>
+      function changePage() {
+        window.location.href = "shoping.html";
+      }
+
+      document.querySelectorAll('.btn').forEach(button => {
+        button.addEventListener('click', changePage);
+      });
+      document.addEventListener("DOMContentLoaded", () => {
+  const burger = document.querySelector(".burger");
+  const navLinks = document.querySelector(".nav-links");
+
+  burger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    burger.classList.toggle("toggle");
+  });
+});
+
+    </script>
+</body>
+</html>
